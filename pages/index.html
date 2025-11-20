@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="../images/leaves.svg" />
     <title>Group F — Responsible Consumption and Production</title>
-    <link rel="stylesheet" href="../css/styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,55 +16,145 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
 
   <body>
-    <div class="background-svg">
-      <svg viewBox="0 0 630 630" class="Hero12-circle">
-        <g fill="none" fill-rule="evenodd">
-          <path fill="currentColor" d="M563.8 119.6L496.5 161l75 45"></path>
-          <path fill="currentColor" d="M347.2 627.3L344 550l-77.6 41.2"></path>
-          <path fill="currentColor" d="M12 220.3l72.7 31-3-85.5"></path>
-          <path
-            d="M315 593c8.7 0 17.4-.4 26-1.2 141.3-13 252-132 252-276.8 0-6.3-.2-12.5-.6-18.7m-47.6-137.8C494.8 85.2 410.5 37 315 37c-72.5 0-138.6 27.8-188 73.3m-66.4 92.5C45.4 237 37 275 37 315c0 105 58.2 196.3 144 243.7"
-            stroke="currentColor"
-            stroke-width="19"
-          ></path>
-        </g>
-      </svg>
-    </div>
-
     <div class="content">
       <header>
-        <div>
-          <nav>
-            <a href="./index.html">Home</a>
-            <a href="./history.html">History</a>
-            <a href="./how-to-help.html">Goals</a>
-            <a href="./about-us.html">How to Help</a>
+        <div class="header-mobile">
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a href="./index.html">
+                <div class="logo">
+                  <img
+                    class="logo-image"
+                    src="../images/leaves.svg"
+                    alt="Sustainability Icon"
+                  />
+                </div>
+              </a>
+
+              <a href="./index.html"><h1>Group F</h1></a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="./index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="./history.html"
+                      >History</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./goals.html">
+                      Goals
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="./newsletter.html"
+                      >Newsletter</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./events.html"
+                      >Events</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="./share-your-journey.html"
+                      >Share Your Journey</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="./about-us.html"
+                      >About Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
           </nav>
         </div>
 
-        <div class="logo">
-          <img
-            class="logo-image"
-            src="../images/leaves.svg"
-            alt="Sustainability Icon"
-          />
-          <h1 class="logo-text">Group F</h1>
-        </div>
+        <div class="header-desktop">
+          <div>
+            <nav>
+              <a href="./index.html">Home</a>
+              <a href="./history.html">History</a>
+              <a href="./goals.html">Goals</a>
+              <a href="./how-to-help.html">How to Help</a>
+            </nav>
+          </div>
 
-        <div>
-          <nav>
-            <a href="./index.html">Newsletter</a>
-            <a href="./history.html">Events</a>
-            <a href="./how-to-help.html">Share Your Journey</a>
-            <a href="./about-us.html">About Us</a>
-          </nav>
+          <div class="logo">
+            <img
+              class="logo-image"
+              src="../images/leaves.svg"
+              alt="Sustainability Icon"
+            />
+            <h1 class="logo-text">Group F</h1>
+          </div>
+
+          <div>
+            <nav>
+              <a href="./newsletter.html">Newsletter</a>
+              <a href="./events.html">Events</a>
+              <a href="./share-your-journey.html">Share Your Journey</a>
+              <a href="./about-us.html">About Us</a>
+            </nav>
+          </div>
         </div>
       </header>
 
-      <main></main>
+      <main>
+        <div class="background-svg">
+          <svg viewBox="0 0 630 630" class="Hero12-circle">
+            <g fill="none" fill-rule="evenodd">
+              <path fill="currentColor" d="M563.8 119.6L496.5 161l75 45"></path>
+              <path
+                fill="currentColor"
+                d="M347.2 627.3L344 550l-77.6 41.2"
+              ></path>
+              <path fill="currentColor" d="M12 220.3l72.7 31-3-85.5"></path>
+              <path
+                d="M315 593c8.7 0 17.4-.4 26-1.2 141.3-13 252-132 252-276.8 0-6.3-.2-12.5-.6-18.7m-47.6-137.8C494.8 85.2 410.5 37 315 37c-72.5 0-138.6 27.8-188 73.3m-66.4 92.5C45.4 237 37 275 37 315c0 105 58.2 196.3 144 243.7"
+                stroke="currentColor"
+                stroke-width="19"
+              ></path>
+            </g>
+          </svg>
+        </div>
+      </main>
 
       <footer></footer>
     </div>

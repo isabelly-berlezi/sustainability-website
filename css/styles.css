@@ -4,7 +4,11 @@ body {
   font-family: "Special Gothic", sans-serif;
   color: #2b2527;
   background-color: #f4ecdb;
-  margin: 0 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #2b2527;
 }
 
 h1,
@@ -14,10 +18,18 @@ h3 {
   margin: 0;
 }
 
-header {
+.header-desktop {
+  display: none;
+}
+
+.header-mobile {
   display: flex;
   justify-content: space-around;
-  margin: 24px 0;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #93b274 !important;
 }
 
 .logo {
@@ -29,7 +41,7 @@ header {
 .logo-image {
   width: 80px;
   height: fit-content;
-  background-color: #93b274;
+  background-color: #f4ecdb;
   border-radius: 50%;
   margin-right: 12px;
 }
@@ -38,18 +50,8 @@ header {
   font-size: 48px;
 }
 
-nav {
-  background-color: #93b274;
-  padding: 24px;
-  border-radius: 48px;
-}
-
-nav a {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 18px;
-  color: #f4ecdb;
-  padding: 16px;
+.navbar-nav {
+  padding-top: 24px;
 }
 
 main {
@@ -74,5 +76,38 @@ main {
   }
   to {
     transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@media (min-width: 1280px) {
+  .header-mobile {
+    display: none;
+  }
+
+  .header-desktop {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header {
+    margin: 24px 0;
+  }
+
+  nav {
+    background-color: #93b274;
+    padding: 24px;
+    border-radius: 48px;
+  }
+
+  .logo-image {
+    background-color: #93b274;
+  }
+
+  nav a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #f4ecdb;
+    padding: 16px;
   }
 }
