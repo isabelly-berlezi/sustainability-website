@@ -29,7 +29,7 @@ h3 {
 
 .navbar {
   width: 100%;
-  background-color: #93b274 !important;
+  background-color: #93b274;
 }
 
 .logo {
@@ -52,6 +52,17 @@ h3 {
 
 .navbar-nav {
   padding-top: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: #f4ecdb;
+}
+
+.nav-link.active {
+  color: #f4ecdb !important;
+  text-decoration: underline;
 }
 
 main {
@@ -61,6 +72,7 @@ main {
 footer {
   background-color: #93b274;
   font-size: 12px;
+  color: #2b2527;
   text-align: center;
   padding: 36px 0;
 }
