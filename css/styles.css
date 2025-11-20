@@ -57,6 +57,14 @@ h3 {
 main {
   margin: 0 36px;
 }
+
+footer {
+  background-color: #93b274;
+  font-size: 12px;
+  text-align: center;
+  padding: 36px 0;
+}
+
 .background-svg {
   position: fixed;
   top: 50%;
