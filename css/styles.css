@@ -118,9 +118,13 @@ footer {
   }
 
   header {
-    margin-bottom: 24px;
-    padding: 24px;
-    background-color: #f4ecdb;
+    padding: 24px 24px 48px;
+    background: linear-gradient(
+      to bottom,
+      #f4ecdb 0%,
+      #f4ecdb 80%,
+      rgba(244, 236, 219, 0) 100%
+    );
   }
 
   nav {
