@@ -60,11 +60,6 @@ h3 {
   color: #f4ecdb;
 }
 
-.nav-link.active {
-  color: #f4ecdb !important;
-  text-decoration: underline;
-}
-
 main {
   margin: 54px 24px;
 }
@@ -75,6 +70,34 @@ h1 {
 
 .main-title {
   text-align: center;
+}
+
+.newsletter {
+  margin-top: 48px;
+}
+
+.newsletter-title {
+  text-align: right;
+  margin-bottom: 36px;
+}
+
+.form-label {
+  margin-bottom: 0;
+}
+
+.form-text {
+  font-size: 12px;
+}
+
+.newsletter-button {
+  background-color: #00adef;
+  padding: 24px;
+  border: none;
+  border-radius: var(--bs-border-radius);
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #f4ecdb;
+  width: 100%;
 }
 
 footer {
