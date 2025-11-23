@@ -121,6 +121,24 @@ footer {
   color: #93b274;
 }
 
+.box {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.sidebar-img {
+  height: 100%;
+  min-height: 400px;
+}
+
+.img-large {
+  height: 260px;
+}
+.img-small {
+  height: 160px;
+}
+
 @keyframes rotate {
   from {
     transform: translate(-50%, -50%) rotate(0deg);
