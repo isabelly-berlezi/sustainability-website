@@ -18,6 +18,11 @@ h3 {
   margin: 0;
 }
 
+strong {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .header-desktop {
   display: none;
 }
@@ -70,6 +75,14 @@ h1 {
 
 .main-title {
   text-align: center;
+}
+
+.main-content {
+  text-align: justify;
+}
+
+em {
+  font-weight: 600;
 }
 
 .newsletter {
@@ -204,5 +217,9 @@ footer {
 
   .main-content {
     font-size: 24px;
+  }
+
+  strong {
+    font-size: 32px;
   }
 }
