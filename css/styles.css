@@ -40,7 +40,7 @@ h3 {
 
 .logo-image {
   width: 80px;
-  height: fit-content;
+  height: 80px;
   background-color: #f4ecdb;
   border-radius: 50%;
   margin-right: 12px;
@@ -83,6 +83,7 @@ h1 {
 
 .form-label {
   margin-bottom: 0;
+  font-weight: 600;
 }
 
 .form-text {
@@ -137,6 +138,17 @@ footer {
 }
 .img-small {
   height: 160px;
+}
+
+.name-feedback {
+  min-height: 24px;
+}
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1050;
 }
 
 @keyframes rotate {

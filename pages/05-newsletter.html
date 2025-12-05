@@ -180,25 +180,57 @@
           </h3>
 
           <div class="col">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Your Name</label>
-                <input type="text" class="form-control" id="name" />
+            <form onsubmit="return submitNewsletter(event)">
+              <div>
+                <label for="nameNewsletter" class="form-label">Your Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nameNewsletter"
+                  placeholder="John Doe"
+                  required
+                />
+                <div class="name-feedback"></div>
               </div>
 
-              <div class="mb-3">
-                <label for="email" class="form-label">Your Email</label>
+              <div>
+                <label for="emailNewsletter" class="form-label"
+                  >Your Email</label
+                >
                 <input
                   type="email"
                   class="form-control"
-                  id="email"
+                  id="emailNewsletter"
                   aria-describedby="emailHelp"
+                  placeholder="johndoe@example.com"
+                  required
                 />
-                <div id="emailHelp" class="form-text">
+                <div class="email-feedback mb-3">
                   We'll never share your email with anyone else.
                 </div>
               </div>
+
               <button type="submit" class="newsletter-button">Submit</button>
+
+              <div
+                class="toast align-items-center"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+                data-bs-delay="10000"
+              >
+                <div class="d-flex">
+                  <div class="toast-body">
+                    Success! Thank you for subscribing.
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close me-2 m-auto"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+              </div>
             </form>
           </div>
         </div>
@@ -214,5 +246,7 @@
         </span>
       </div>
     </footer>
+
+    <script src="../js/main.js"></script>
   </body>
 </html>
