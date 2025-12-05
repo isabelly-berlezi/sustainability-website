@@ -85,6 +85,11 @@ em {
   font-weight: 600;
 }
 
+.list-group-item {
+  background-color: #93b274;
+  border-color: #f4ecdb;
+}
+
 .newsletter {
   margin-top: 48px;
 }
