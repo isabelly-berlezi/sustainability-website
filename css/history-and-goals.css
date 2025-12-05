@@ -1,0 +1,168 @@
+/*Honestly a nice font type */
+/*Gonna  try and like comment on the lines. CAUSE I DO NOT WANT A BUNCH OF EXTRA LINES
+/* This is the css for my history.html */
+/* General stuff */
+
+/* Logo stuff */
+#logo {
+  width: 100%; /* How to change the width*/
+  max-width: 400px; /* How wide it maxes at*/
+  display: block; /* Removes the annoying inline spacing*/
+  margin: 30px auto; /* Centers it */
+  height: auto; /* Helps to keep the proportions*/
+}
+
+/* Footer stuff */
+.page-footer {
+  background-color: #c38b3f; /* Footer background*/
+  color: #f4ecdd; /* footer text color*/
+  height: 80px; /* footer height*/
+  text-align: center; /* also centers texts */
+  position: relative; /* Forces the items inside*/
+}
+
+/* List stuff */
+.custom-list .list-group-item {
+  background-color: #93b274; /* list item background color*/
+  border: 1px solid #2b2527; /* the border color*/
+  color: #2b2527; /* the text color*/
+}
+
+/* Link stuff */
+a {
+  color: #2b2527; /* the link color */
+  text-decoration: none; /* just gets rid of the underline for links, or maybe I should have it still.*/
+  font-weight: 500; /* Font weight is amazing I had to add it now */
+}
+
+a:hover {
+  text-decoration: underline; /* Underlines on hover, but like this basically activates when you hover over with the mouse. IMMA JUST LEAVE IT ALONE.*/
+}
+#corner-image {
+  position: absolute; /* Positioned anything into the footer*/
+  bottom: 5px; /* Starts from the bottom */
+  right: 20px; /* Starts from the right */
+  width: 60px; /* Image Size */
+}
+/* Round 2, the start of the goal's css*/
+
+/* Should have done this sooner but lowkey lost with which color is what. */
+/* Dark brown is #2B2527*/
+/* Whiteish color is #F4ECDD*/
+/* Muted Green is #93B274*/
+/* Golden Brown is #C38B3F*/
+/* Bright Blue is #00ADEF*/
+
+/* BEST IDEA EVER, BUT I'M STUPID AS HECK FOR ONLY DOING IT NOW....*/
+
+/* header tag for goals */
+
+#header-title {
+  background-color: #93b274;
+  font-weight: 600; /* It going from 1 too 900 in like depth/boldness is honestly neat, I might use this more. */
+  margin: 0;
+  text-align: center;
+}
+#header-box {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* nav css for goals*/
+#nav-title {
+  color: #c38b3f;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* main stuff for goals*/
+
+#info-heading {
+  color: #c38b3f;
+  font-size: 2rem;
+}
+#info-subheading {
+  color: #2b2527;
+  font-size: 1rem;
+}
+#info-box {
+  padding: 20px;
+}
+#info-list li {
+  margin-bottom: 8px;
+}
+
+/* image css for goals */
+
+#img1-box,
+#img2-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+#img2 {
+  margin-left: 100px;
+  margin-bottom: 20px;
+  height: 800px;
+  width: 525px;
+}
+#img1 {
+  margin-right: 108px;
+  margin-bottom: 30px;
+  height: 800px;
+  width: 520px;
+}
+#img3 {
+  width: 525px;
+  height: 250px;
+}
+#img3-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#img3-label {
+  font-size: 1rem;
+  color: #2b2527;
+}
+#goal-li,
+#img3-label {
+  text-align: right;
+}
+/* section part I guess?*/
+
+#lower-section {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* contact us/links css for goals*/
+
+#contact-title,
+#links-title {
+  color: #c38b3f;
+}
+#contact-col,
+#links-col {
+  margin-left: 40px;
+}
+
+/* footer css for goals*/
+
+#full-footer {
+  background-color: #c38b3f;
+  width: 100%;
+}
+
+.footer-box {
+  background-color: #c38b3f;
+  color: #2b2527;
+  padding: 15px;
+}
+#footer-text {
+  margin: 0;
+  font-size: 3;
+}
